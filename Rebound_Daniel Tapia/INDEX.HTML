@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulario de Agenda</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
+  </head>
+  <header class="frontline">
+    <h1>FORMULARIO</h1>
+  </header>
+  <body>
+    <form action="FINAL.HTML" method="post">
+      <div class="a">
+        <label for="nombre"><b>Nombre:&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" name="nombre" id="nombre" required />
+      </div>
+      <div class="b">
+        <label for="direccion"><b>Dirección:&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" name="direccion" id="direccion" required />
+      </div>
+      <div class="c">
+        <label for="Espec"><b>Especialidad Médica:&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" name="Espec" list="Especialidad" required />
+      </div>
+      <div class="d">
+        <datalist id="Especialidad">
+          <option value="Medicina Interna">Medicina Interna</option>
+          <option value="Medicina General">Medicina General</option>
+          <option value="Traumatología">Traumatología</option>
+          <option value="Geriatría">Geriatría</option>
+          <option value="Pediatría">Pediatría</option>
+          <option value="Ginecología">Ginecología</option>
+        </datalist>
+      </div>
+      <div class="f">
+        <label for="fecha"><b>Fecha:&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="date" name="fecha" required />
+      </div>
+      <div class="g">
+        <label for="hora"><b>Hora:&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="time" name="hora" required />
+      </div>
+      <div class="h">
+        <label for="email" name="correo"><b>Email:&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="email" name="correo" required />
+      </div>
+      <div class="i">
+        <input type="submit" value="Reservar Hora" />
+      </div>
+    </form>
+  </body>
+</html>

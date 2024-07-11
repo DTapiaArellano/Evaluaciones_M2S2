@@ -1,0 +1,77 @@
+.frontline {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.e {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.f {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.g {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.h {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.i {
+  display: flex;
+  justify-content: center;
+}
